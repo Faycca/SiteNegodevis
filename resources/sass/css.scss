@@ -1,0 +1,150 @@
+#fond_head
+{
+    background: url(../images/adventure-1868817_192022.jpg)no-repeat center fixed!important;
+    height: auto;
+    padding-bottom: 30vh;
+}
+
+.titrePara{font-family: 'Frijole', cursive;}
+
+.cssNav{font-family: 'Alatsi', sans-serif;}
+
+#nomLogin{
+    text-decoration: none!important;
+    font-size: 1.2em!important;
+    font-style: bold;
+    color: white!important;
+    margin-left: 3.8em!important;
+}
+
+#telephone_haut{
+    width: 48%;
+    margin-top: 2%;
+}
+
+#first_h2{font-size: 2.8em;}
+
+#first_p{font-size: 1.2em;}
+
+#buttonLancerNego{
+    border-width: 2px!important;
+    font-size: 18px;
+    margin-left: 9%!important;
+    padding: 8px 20px 8px 20px!important;
+}
+
+#para1
+{
+   margin-top: 5%;
+   margin-left: 7%;
+}
+
+#negodevis_apropos{font-size: 35px;}
+
+#p_apropos
+{
+  -webkit-column-count:2; /* Opera, Safari, Google Chrome */ /* Firefox */
+         column-count: 2; /* Internet Explorer */
+      -webkit-column-gap: 2.5em;
+              column-gap: 2.5em;
+              font-size: 18px;
+              margin-bottom: 15px!important;
+}
+
+#quatre_logo
+{
+  margin-left: 14%!important;
+}
+
+.couleur_titre
+{
+    color: #ae0e07!important;
+    font-size: 25px!important;
+}
+
+#buttonCOmmentMarche
+{
+    border : 2px solid #ae0e07;
+    color: #ae0e07;
+    font-size: 20px;
+    display: block;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+#rule-img{width: 70%!important;
+          margin:auto}
+#rule-illustration{width: 70%; margin:auto;}
+.rules-pagination{list-style-type: none;font-size: 1.8em;}
+.rules-pagination-elmt:hover{cursor: pointer;color: white;}
+.negotiation-button:hover{cursor: pointer;}
+.home-back-button:hover{cursor: pointer;}
+.section{ /*active un fondu quand le popup est acitver/desactiver */
+    transition: visibility 1s ease-in-out, opacity 1s ease-in-out;
+        }
+
+.section.hidden{ /* Cache le popup en état inactif */
+     visibility: hidden;
+     opacity: 0;
+     width: 80%!important;
+     height:30em!important;
+     margin:auto!important;
+     position: absolute;
+     z-index: 1;
+     top: 78em;
+     left: 10em;
+}
+
+#temoignages
+{
+    background: url(../images/paper-1990111_1920.jpg);
+    height: auto;
+    margin-top: 8%;
+    padding-bottom: 5vh;
+}
+
+#twitter_temoignages
+{
+    width: 3%;
+    display:block;
+    margin: auto;
+}
+
+#footer{
+    background: #ac0900;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+    html{
+        overflow-x: hidden;
+    }
+
+    #fond_header{
+        max-width: auto;
+    }
+
+    #telephone_haut{
+        margin-top: 2em;
+        width: 90%;
+    }
+
+    #first_h2{
+        font-size: 5em;
+    }
+
+    #first_p{display:none;}
+
+    #para1{
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 8px!important;
+                   }
+}
+
